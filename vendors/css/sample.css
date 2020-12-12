@@ -1,0 +1,126 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  min-height: 0%;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+header ul a {
+}
+
+header li {
+}
+
+header ul:after {
+}
+
+.header {
+  background-color: #404040;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.ul1 li {
+  float: left;
+  width: auto;
+  list-style-type:none;
+}
+
+.ul1 li a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.main-header {
+  padding-bottom: 28%;
+  width: 100%;
+  min-height: 100px;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+.right_menu {
+  float: right;
+}
+
+.main-header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 20%;
+}
+
+.about {
+  padding-bottom: 20px;
+}
+
+.function {
+  background-color: #b3b3b3;
+  padding-top: 10px;
+
+}
+
+.functiontext {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.function-images {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 39px;
+}
+
+.sample img {
+  width: 50px;
+}
+
+.function-image {
+  float: left;
+  width: 140px;
+  margin-left: 10px;
+}
+
+.function-image img {
+  height: 70px;
+}
+
+footer {
+  background-color: #404040;
+  width: 100%;
+  height: 50px;
+  padding-top: 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  color: #fff;
+  vertical-align: middle;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
